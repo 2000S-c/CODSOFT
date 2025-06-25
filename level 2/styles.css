@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-buttons .login-btn,
+.header-buttons .post-job-btn {
+  margin-left: 15px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.post-job-btn {
+  background: #00cc66;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  background: #2196f3;
+  color: white;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  color: #d0f0ff;
+}
+
+.hero-text p {
+  margin: 10px 0 20px;
+}
+
+.upload-btn {
+  padding: 10px 20px;
+  background: #00cc66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background: white;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.find-job-btn {
+  padding: 10px 20px;
+  background: #00cc66;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
