@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "TechSoft",
+    "location": "New York, NY",
+    "category": "Development"
+  },
+  {
+    "title": "Graphic Designer",
+    "company": "DesignPro",
+    "location": "Los Angeles, CA",
+    "category": "Design"
+  },
+  {
+    "title": "Backend Developer",
+    "company": "CodeBase",
+    "location": "San Francisco, CA",
+    "category": "Development"
+  }
+]
